@@ -7,6 +7,7 @@ This project implements a Generative Adversarial Network (GAN) using TensorFlow 
 ├── train.py                  # Training script
 ├── generate.py               # Script to generate new images
 ├── model.py                  # Contains the Generator and Discriminator architecture
+├── GANs.ipynb                # Colab notebook showcasing model training and results
 ├── requirements.txt          # List of required libraries
 ├── README.md                 # Project documentation
 ```
@@ -37,7 +38,7 @@ python generate.py
 - **Performance**: Achieved stable convergence with Generator Loss ~4.3 and Discriminator Loss ~11.4.
 
 ## Results
-The model successfully generates high-quality digits resembling MNIST samples, demonstrating the potential of GANs in generative modeling tasks.
+The model successfully generates high-quality digits resembling MNIST samples, demonstrating the potential of GANs in generative modeling tasks. The `GANs.ipynb` notebook includes visual examples of generated images and training progress.
 
 ## Future Improvements
 - Enhance architecture for improved stability.
